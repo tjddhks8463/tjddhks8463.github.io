@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<p style="font-size:50px;color:red;">Stanford Performing Arts</p>
+
+<div class="row">
+  <div class="column" style="background-color:#ffffff;">
+    <h1>Bing Concert Hall</h1>
+    
+    <img src="Bing Concert Hall.jpg"><p>The Bing Concert Hall at Stanford will play a vital role on campus and in the local community. The hall's exceptional acoustics and state-of-the-art technical capabilities will showcase the world's finest performers.
+    The hall is scheduled to open early in 2013. The concert hall will have 844 seats in an intimate vineyard-style configuration, with terraced sections wrapping all the way around the stage.</p>
+  </div>
+  <div class="column" style="background-color:#ffffff;">
+    <h1>Calendar</h1>
+    <p><hr>Harmony for Humanity: Daniel Pearl World Music Concert<hr>
+
+      Sundays with the St. Lawrence String Quartet<hr>
+
+      Merce Cunningham Dance Company<hr>
+
+      Juilliard String Quartet<hr></p>
+  </div>
+</div>
+
+</body>
+</html>
