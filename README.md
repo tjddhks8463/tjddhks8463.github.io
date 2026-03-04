@@ -1,1 +1,10 @@
-# tjddhks8463.github.io
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+
+    <h1>동서대학교 컴퓨터공학과 문성완</h1>
+    <h2>2026년 1학기 웹프로그래밍 수업에서 작석하였습니다.</h2>
+    <img src="sans.jpg">
+</body>
+</html>
