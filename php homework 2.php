@@ -20,7 +20,7 @@
         $arr = [];
         $max = -1;
 
-        echo "<h3>결과 리포트: $n 개의 숫자를 생성했습니다.</h3>";
+        echo "<h3>결과: $n 개의 숫자를 생성했습니다.</h3>";
 
         echo "<div style='background: #f0f0f0; padding: 10px; margin-bottom: 10px;'>";
         echo "<strong>생성된 숫자:</strong><br>";
@@ -28,7 +28,6 @@
             $arr[$i] = rand(10, 100);
             echo $arr[$i] . " ";
             
-            // 최댓값 스캔 중...
             if ($arr[$i] > $max) {
                 $max = $arr[$i];
             }
